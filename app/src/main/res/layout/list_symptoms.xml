@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#162447"
+    tools:context=".FragmentStatisticsGable.StatisticsFragment">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        app:cardBackgroundColor="#162447">
+
+        <ImageView
+            android:id="@+id/flag"
+            android:layout_width="79dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="270dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/sa" />
+
+        <TextView
+            android:id="@+id/totalDeath"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="33dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="50dp"
+            android:text="Deaths"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/totalCases"
+            android:layout_width="59dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="223dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/totalRecvoid"
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="140dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="50dp"
+            android:text="Cases"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="50dp"
+            android:text="Recovered"
+            android:textColor="#FFFFFF" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="139dp"
+            android:background="@android:color/darker_gray" />
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
